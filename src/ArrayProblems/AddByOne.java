@@ -1,4 +1,4 @@
-package ArraysAndLists;
+package ArrayProblems;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -8,16 +8,14 @@ public class AddByOne {
 	//Main Function
 	public static void main(String[] args) {
 
-		//Example
+		//Sample Input
 		ArrayList<Integer> a = new ArrayList<>(Arrays.asList(new Integer[] { 9,9,8,7 }));
 		
-		//Call add by one function on sample value
+		//Call function on sample value
 		ArrayList<Integer> b = addByOne(a);
 
-		//Print Updated array
-		for (Integer i : b) {
-			System.out.print(i + " ");
-		}
+		//Print Output
+		System.out.println(b);
 	}
 
 	//Function to Add one to a number represented by an arrayList
