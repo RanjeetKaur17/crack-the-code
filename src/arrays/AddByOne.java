@@ -1,8 +1,11 @@
-package ArrayProblems;
+package arrays;
 
 import java.util.Arrays;
 import java.util.ArrayList;
 
+/**
+ * @author ranjeetkaur
+ */
 public class AddByOne {
 	
 	//Main Function
